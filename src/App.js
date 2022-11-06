@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
 import Projects from './components/Projects'; 
+import ContactForm from "./components/Contact";
 import './App.css';
 
 function App() {
@@ -10,7 +11,7 @@ function App() {
   return (
     <div>
     <Nav>
-    setPage = {setPage}
+   setPage = {setPage}
     About = {About}
     Projects = {Projects}
     {/* Contact = {Contact}
@@ -18,7 +19,9 @@ function App() {
     </Nav>
     {page}
       <main>
-        <Projects></Projects>
+        <setPage></setPage>
+      <Projects></Projects>
+      <ContactForm></ContactForm>
       </main>
     </div>
   );

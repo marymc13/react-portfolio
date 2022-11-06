@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import About from './components/About';
 import Nav from './components/Nav';
+import Projects from './components/Projects'; 
 import './App.css';
 
 function App() {
@@ -11,13 +12,13 @@ function App() {
     <Nav>
     setPage = {setPage}
     About = {About}
-    {/* Projects = {Projects}
-    Contact = {Contact}
+    Projects = {Projects}
+    {/* Contact = {Contact}
     Resume = {Resume} */}
     </Nav>
     {page}
       <main>
-        <About></About>
+        <Projects></Projects>
       </main>
     </div>
   );

@@ -5,7 +5,7 @@ main {
   padding: 50px 30px;
 }
 :root {
-  --primary: #8c54ff;
+  --primary: blue;
   --secondary: #F3A847;
   --tertiary: #B12704;
   --light: #fafafa;
@@ -93,10 +93,19 @@ a:hover {
 
 header {
   background: var(--dark);
+  margin: 0 0 0 50px;
+  font-size: 30px
 }
 
 header a {
   color: var(--light);
+ 
+}
+
+ header nav {
+margin: 0 0 0 100px;
+justify-content: space-between;
+align-items: center;
 }
 
 button {

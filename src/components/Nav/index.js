@@ -18,18 +18,18 @@ function Nav({setPage, About, Projects, Contact, Resume}) {
                         </a>
                     </li>
                     <li className="mx-2">
-                    <span a href="#projects" onClick={() => setPage(<Projects/>)}> 
-                       Projects</span>
+                    < a href="#projects" onClick={() => setPage(<Projects/>)}> 
+                       Projects</a>
                        
                     </li>
                     <li className="mx-2">
-                    <span a href="#contact"  onClick={() => setPage(<Contact/>)}>
-                        Contact Me</span>
+                    < a href="#contact"  onClick={() => setPage(<Contact/>)}>
+                        Contact Me</a>
                         
                     </li>
                     <li className="mx-2">
-                    <span a href="#resume" onClick={() => setPage(<Resume/>)}>
-                        Resume</span>
+                    < a href="#resume" onClick={() => setPage(<Resume/>)}>
+                        Resume</a>
                         
                     </li>
                 </ul>

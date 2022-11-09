@@ -12,7 +12,7 @@ function Footer(
             <div>
             <ul className="flex-row">
                 <li className="mx-2">
-                    <h1 id="contact">Contact Information</h1>
+                    <h1 id="contact" >Contact Information</h1>
                     <a href="#github" onClick={() => setPage(<Github />)}></a>
                     <a className="font-italic hover:font-bold text-xl" href="https://github.com/marymc13">Github </a>
                 </li>
@@ -21,16 +21,16 @@ function Footer(
                 <ul className="flex-row">
                 <li className="mx-2">
                     <a href="#linkedin" onClick={() => setPage(<Linkedin />)}></a>
-                    <a className="font-italic hover:font-bold text-xl" href="www.linkedin.com/in/mary-paul-06740b199">LinkedIn </a>
+                    <a className="font-italic hover:font-bold text-xl" href="https://www.linkedin.com/in/mary-paul-06740b199">LinkedIn </a>
                 </li>
             </ul>
 
-            <ul className="flex-row">
+            {/* <ul className="flex-row">
                 <li className="mx-2">
                     <a href="#email" onClick={() => setPage(<Email />)}></a>
                     <a className="font-italic hover:font-bold text-xl" href="marymc135@gmail.com">Email </a>
                 </li>
-            </ul>
+            </ul> */}
         </div>
         </footer>
         )

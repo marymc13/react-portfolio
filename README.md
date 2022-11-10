@@ -38,6 +38,12 @@ marymc13
 ## Github Link:
 github.com/marymc13
 
+## Github Repository
+https://github.com/marymc13/react-portfolio.git
+
+## Deployed Link
+ https://marymc13.github.io/react-portfolio/
+
 ## Email:
 marymc135@hotmail.com
 

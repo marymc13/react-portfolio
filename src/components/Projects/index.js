@@ -5,6 +5,7 @@ import ecommerce from '../../assets/ecommerce.png';
 import openBook from '../../assets/open-book.png';
 import password from '../../assets/password.png';
 import socialNetwork from '../../assets/social-network.jpg';
+import apeClub from '../../assets/apeClub.jpg';
 
 function Projects(
     setPage,
@@ -13,7 +14,8 @@ function Projects(
     ECommerce, 
     BookNook, 
     Password,
-    Social)
+    Social,
+    ApeClub)
 {
 
     return (
@@ -75,6 +77,16 @@ function Projects(
                         <a href="#social" onClick={() => setPage(<Social />)}></a>
                         <img className="w-full object-contain" src={socialNetwork} style={{ width: "20%" }} alt=" social network api for users to make comments and connect with others"></img>
                         <a className="font-italic hover:font-bold text-xl" href="https://marymc13.github.io/password-generator/">Social Network API</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div>
+                <ul className="flex-row">
+                    <li className="mx-2">
+                        <a href="#apeClub" onClick={() => setPage(<ApeClub />)}></a>
+                        <img className="w-full object-contain" src={apeClub} style={{ width: "20%" }} alt=" social network api for users to make comments and connect with others"></img>
+                        <a className="font-italic hover:font-bold text-xl" href="https://mysterious-fjord-50002.herokuapp.com/">Ape Club</a>
                     </li>
                 </ul>
             </div>

@@ -85,7 +85,7 @@ function Projects(
                 <ul className="flex-row">
                     <li className="mx-2">
                         <a href="#apeClub" onClick={() => setPage(<ApeClub />)}></a>
-                        <img className="w-full object-contain" src={apeClub} style={{ width: "20%" }} alt=" social network api for users to make comments and connect with others"></img>
+                        <img className="w-full object-contain" src={apeClub} style={{ width: "20%" }} alt=" fitness app"></img>
                         <a className="font-italic hover:font-bold text-xl" href="https://mysterious-fjord-50002.herokuapp.com/">Ape Club</a>
                     </li>
                 </ul>
